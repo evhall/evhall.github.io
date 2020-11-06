@@ -8,6 +8,8 @@ Using this a place to test and move files between my computers.
 
 - Moved About section to own page
 - Created About and Work page templates
+- Added nav to About and Work Pages
+- Fixed button problem on home pages
 
 
 ### November 5, 2020 

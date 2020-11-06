@@ -4,7 +4,13 @@ Using this a place to test and move files between my computers.
 
 ## Log
 
-### November 5 2020 
+### November 6, 2020
+
+- Moved About section to own page
+- Created About and Work page templates
+
+
+### November 5, 2020 
 
 - First Commit
 - Added first project and description

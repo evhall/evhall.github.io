@@ -8,6 +8,13 @@ body {
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(to bottom right, #fb93fc, #34e1fb);
     background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    font-size: 5vh;
 }
 .windows {
     width: 80%;
@@ -15,6 +22,8 @@ body {
     background: white;
     border-radius: 15px;
     box-shadow: 1em 1em 1em .5em rgba(0, 0, 0, 1);
+    margin-top: 3vh;
+
 }
 .bar {
     border-bottom: 0.5vmin solid black;
@@ -37,6 +46,79 @@ body {
     margin-right: 3vw;
     margin-top: 3.6vh;
 }
-footer {
+.welcome p {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 3vh;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+
+}
+.projects img{
+    height: 50vh;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+.description h4 {
+    font-family: 'Space Mono', monospace;
+    background-color: #34e1fb;
+    width: 10%;
+    border-radius: 15px;
+    text-align: center;
+    padding: .2vmax;
+}
+.description p {
+    width: 40%;
+}
+
+.contact {
+    text-align: center;
+    padding: 3vmax;
+}
+.contact h3 {
+    font-size: 3vh;
+    margin-top: .5em;
+   
+}
+.contact p {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 2.3em;
+}
+.contact a {
+    text-decoration: none;
+    background-color: #34e1fb;
+    border-radius: 15px;
+    padding: .2vmax;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: black;
+
+}
+.contact a:hover {
     color: white;
+}
+footer {
+    margin-top: 3em;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer ul li {
+    display: inline-block;
+}
+footer a {
+    margin: 2vmax;
+}
+footer img {
+    height: 5vh;
 }

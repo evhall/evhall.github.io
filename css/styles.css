@@ -24,7 +24,7 @@ nav ul li {
 nav ul a {
     text-decoration: none;
     font-family: 'Space Mono', monospace;
-    font-size: 2.4em;
+    font-size: 1.6em;
     margin-right: 3vw;
     color: black;
 }
@@ -34,7 +34,7 @@ nav ul a:hover {
 
 h1 {
     text-align: center;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 .windows {
     width: 80%;
@@ -111,10 +111,13 @@ h1 {
     margin: auto;
     padding-bottom: 2.3em;
 }
+.contact button {
+    border-radius: 15px;
+    background-color: #34e1fb;
+    border: none;
+}
 .contact a {
     text-decoration: none;
-    background-color: #34e1fb;
-    border-radius: 15px;
     padding: .2vmax;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
@@ -141,4 +144,19 @@ footer a {
 }
 footer img {
     height: 5vh;
+    margin-top: 1.4em;
+}
+
+@media (max-width: 768px){
+    .projects {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .description {
+        align-items: center;
+    }
+    .description p {
+        width: 60%;
+    }
+       
 }

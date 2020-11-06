@@ -10,6 +10,8 @@ Using this a place to test and move files between my computers.
 - Created About and Work page templates
 - Added nav to About and Work Pages
 - Fixed button problem on home pages
+- Changed email link to a button
+- Moved social links down
 
 
 ### November 5, 2020 
